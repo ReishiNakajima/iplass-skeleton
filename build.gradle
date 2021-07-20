@@ -95,7 +95,7 @@ dependencies {
 	// 以下のJDBCドライバはテナント作成ツール(runTenantBatchタスク)の実行に必要となります。
 	// 実行する場合は使用するJDBCドライバのコメントアウトを外してください。
 	// OracleのJDBCドライバについては'lib/jdbc'に配置してください。
-//	providedRuntime 'mysql:mysql-connector-java:8.0.21'
+	providedRuntime 'mysql:mysql-connector-java:8.0.21'
 //	providedRuntime 'org.postgresql:postgresql:42.2.16'
 //	providedRuntime 'com.microsoft.sqlserver:mssql-jdbc:8.2.2.jre8'
 
