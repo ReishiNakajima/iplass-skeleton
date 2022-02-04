@@ -20,7 +20,7 @@ public class TestRadikoProgramService {
 	
 	@Test
 	public void testCalc_2() {
-		assertEquals(99, RadikoProgramService.calc());
+		assertEquals(100, RadikoProgramService.calc());
 	}
 
 }
